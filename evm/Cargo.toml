@@ -1,0 +1,18 @@
+[package]
+name = "gevm"
+edition = "2021"
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+homepage.workspace = true
+repository.workspace = true
+
+[dependencies]
+gstd.workspace = true
+revm.workspace = true
+
+[dev-dependencies]
+gtest.workspace = true
+
+[build-dependencies]
+gear-wasm-builder.workspace = true

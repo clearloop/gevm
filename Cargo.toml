@@ -1,0 +1,20 @@
+[workspace]
+members = [
+  "api",
+  "evm"
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.0.1"
+authors = [ "clearloop" ]
+edition = "2021"
+license = "GPL-3.0-only"
+homepage = "https://github.com/clearloop/zink"
+repository = "https://github.com/clearloop/zink.git"
+
+[workspace.dependencies]
+gstd = { version = "1.0.2", default-features = false }
+gear-wasm-builder = { version = "1.0.2", default-features = false  }
+revm = { version = "3.5.0", default-features = false }
+gtest = { git = "https://github.com/gear-tech/gear" }
